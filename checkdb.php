@@ -1,10 +1,10 @@
 <?php
   $dbport = 5432;
-  $dbuser = 'pi';
-  $dbpasswd = '11101110';
+  $dbuser = 'XXXXX';
+  $dbpasswd = 'XXXXX';
   $dbname = 'trackdb';
-  $ip_address = '192.168.43.27';
-  $ghnport = 8091;
+  $ip_address = 'XX.XX.XX.XX';
+  $ghnport = 8080;
   $txtpath = '/var/www/html/player/tmp/crontab.txt';
   $gap = 3;
 
