@@ -1,7 +1,9 @@
+import sys
 import plistlib as plist
 import csv
 
-with open("lib.xml", 'rb') as fp:
+filename = sys.argv[1]
+with open(filename, 'rb') as fp:
     pl = plist.load(fp)
 
 strip = pl['Tracks']
