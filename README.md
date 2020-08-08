@@ -25,8 +25,9 @@ Instruction :
   4. Copy all repository directory file to /var/www/html/ (for Ubuntu).
      The directory path is depend on OS distribution.
   5. Make synbolic link from the copied itunes directory at /var/www/html/ .
-  6. Change player/tmp directory's access mode to readable/writable from anyone.
-     chmod 777 tmp
+  6. Make player/tmp directory and change the directory's access mode to readable/writable
+     from anyone.
+        chmod 777 tmp
   7. Setting checkdb.php setting valus DB user name, passwd, etc.
   8. Access http://<machine address>/player/ from web browser to use player.
 
