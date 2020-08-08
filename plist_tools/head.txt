@@ -1,0 +1,17 @@
+CREATE TABLE track_table (
+track_id integer,
+name varchar,
+artist varchar,
+album varchar,
+genre varchar,
+size integer,
+total_time integer,
+track_number integer,
+track_count integer,
+year integer,
+bit_rate integer,
+normalization integer,
+persistent_id char(16),
+compilation boolean,
+PRIMARY KEY (track_id));
+

@@ -1,0 +1,5 @@
+49 8 8 8 * sleep 39 ; curl -X POST 'http://localhost:8091/google-home-notifier' -d "text=http://192.168.43.27/itunes/Music/Chick\%20Corea\%20\%26\%20上原ひろみ/Duet\%20[Disc\%201]/1-02\%20How\%20Insensitive.m4a"
+57 8 8 8 * sleep 20 ; curl -X POST 'http://localhost:8091/google-home-notifier' -d "text=http://192.168.43.27/itunes/Music/Chick\%20Corea\%20\%26\%20上原ひろみ/Duet\%20[Disc\%201]/1-03\%20Déja\%20Vu.m4a"
+6 9 8 8 * sleep 25 ; curl -X POST 'http://localhost:8091/google-home-notifier' -d "text=http://192.168.43.27/itunes/Music/Chick\%20Corea\%20\%26\%20上原ひろみ/Duet\%20[Disc\%201]/1-04\%20The\%20Fool\%20On\%20The\%20Hill.m4a"
+13 9 8 8 * sleep 15 ; curl -X POST 'http://localhost:8091/google-home-notifier' -d "text=http://192.168.43.27/itunes/Music/Chick\%20Corea\%20\%26\%20上原ひろみ/Duet\%20[Disc\%201]/1-05\%20Humpty\%20Dumpty.m4a"
+21 9 8 8 * sleep 9 ; curl -X POST 'http://localhost:8091/google-home-notifier' -d "text=http://192.168.43.27/itunes/Music/Chick\%20Corea\%20\%26\%20上原ひろみ/Duet\%20[Disc\%201]/1-06\%20Ba-Lue\%20Bolivar\%20Ba-Lues-Are\%20(Bol.m4a"
