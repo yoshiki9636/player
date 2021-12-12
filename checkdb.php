@@ -1,10 +1,11 @@
 <?php
   $dbport = 5432;
-  $dbuser = 'XXXXX';
-  $dbpasswd = 'XXXXX';
+  $dbuser = 'pi';
+  $dbpasswd = '11101110';
   $dbname = 'trackdb';
-  $ip_address = 'XX.XX.XX.XX';
-  $ghnport = 8080;
+  #$ip_address = '192.168.43.6';
+  $ip_address = '192.168.43.12';
+  $ghnport = 8091;
   $txtpath = '/var/www/html/player/tmp/crontab.txt';
   $gap = 3;
 
@@ -125,6 +126,8 @@
 
     $artist = str_replace('/', '_', $artist);
     $album = str_replace('/', '_', $album);
+    $re1 = "/\.$/";
+    $album = preg_replace($re1, "_", $album);
 
     for ($i = $start_track - 1; $i < $cnt; $i++) {
       $row = pg_fetch_row($result, $i);
